@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Management</title>
+   <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>File Management</h1>
+        <div class="form-group">
+            <label for="file">Select a file to upload:</label>
+            <input type="file" id="file"  accept="*">
+            <button onclick="uploadFile()">Upload</button>
+        </div>
+        <ul class="file-list" id="fileList">
+            <!-- File list will be populated dynamically -->
+        </ul>
+    </div>
+
+    <script src="./Script.js"></script>
+
+</body>
+</html>
